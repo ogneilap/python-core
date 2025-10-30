@@ -66,7 +66,7 @@ result = num < 5 and name == "Tom"
 print(result)
 
 message = "Tom get some money"
-print(name in message)
+print("------>>>>",name in message)
 print(name not in message)
 
 name = "John"
