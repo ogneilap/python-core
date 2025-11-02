@@ -5,7 +5,7 @@ class Card:
         if self.__check_attribute_type(card_number, str):
             self._card_number = card_number
         if self.__check_attribute_type(balance, float):
-            self.__balance = balance
+            self._balance = balance
 
 
     def get_cart_data(self):

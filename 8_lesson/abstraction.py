@@ -1,4 +1,4 @@
-from abc import ABC, abstractclassmethod
+from abc import ABC, abstractmethod
 
 
 class Car(ABC):
@@ -7,7 +7,8 @@ class Car(ABC):
         self.mark = mark
         self.cost = cost
 
-    @abstractclassmethod
+    @classmethod
+    @abstractmethod
     def car_preview(self):
         pass
 
@@ -30,12 +31,14 @@ class BMW(Car):
 
 class Animal(ABC):
     
-    @abstractclassmethod
+    @classmethod
+    @abstractmethod
     def move(self):
         pass
 
 
-    @abstractclassmethod
+    @classmethod
+    @abstractmethod
     def eat(self):
         pass
 
