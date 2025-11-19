@@ -1,1 +1,1 @@
-print("Hello world in Linuxss  !!!!")
+print("Hello world in Linuxss mint !!")
